@@ -122,6 +122,7 @@
   <key name="KeyR" ctrl="1" menu="1" action="reload_landscape_ig"/>
   <key name="KeyS" action="turn_left"/>
   <key name="KeyS" ctrl="1" menu="1" action="toggle_season"/>
+  <key name="KeyT" action="macro_exec" params="2"/>
   <key name="KeyT" ctrl="1" action="r2ed_teleport"/>
   <key name="KeyT" ctrl="1" menu="1" action="reel_weather"/>
   <key name="KeyU" action="show_hide" params="fame"/>
@@ -214,5 +215,8 @@
   </macro>
   <macro name="Follow" id="1" back="0" icon="0" over="0" text="">
     <command name="talk" params="mode=0|text=/follow"/>
+  </macro>
+  <macro name="Kitin Patrol" id="2" back="0" icon="0" over="0" text="">
+    <command name="talk" params="mode=0|text=/tar &quot;Great Kirosta&quot; &quot;Killer Kirosta&quot;"/>
   </macro>
 </interface_config>

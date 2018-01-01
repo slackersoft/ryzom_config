@@ -4,6 +4,7 @@
   <key name="KeyTAB" ctrl="1" action="front_selection" params="friend"/>
   <key name="KeyESCAPE" action="r2ed_cancel_tool"/>
   <key name="KeyESCAPE" shift="1" action="close_help"/>
+  <key name="KeySPACE" action="phrase_cancel_cast"/>
   <key name="KeyPRIOR" ctrl="1" action="camera_up"/>
   <key name="KeyPRIOR" shift="1" action="camera_foreward"/>
   <key name="KeyPRIOR" ctrl="1" menu="1" action="inc_camera_height"/>
@@ -11,8 +12,8 @@
   <key name="KeyNEXT" shift="1" action="camera_backward"/>
   <key name="KeyNEXT" ctrl="1" menu="1" action="dec_camera_height"/>
   <key name="KeyHOME" action="toggle_camera"/>
-  <key name="KeyLEFT" action="turn_left"/>
-  <key name="KeyRIGHT" action="turn_right"/>
+  <key name="KeyLEFT" ctrl="1" action="strafe_left"/>
+  <key name="KeyRIGHT" ctrl="1" action="strafe_right"/>
   <key name="KeySNAPSHOT" action="screen_shot"/>
   <key name="KeyINSERT" action="look_up"/>
   <key name="KeyINSERT" ctrl="1" menu="1" action="set_pos"/>
@@ -96,7 +97,7 @@
   <key name="KeyD" ctrl="1" menu="1" action="toggle_weather_function"/>
   <key name="KeyE" action="forward"/>
   <key name="KeyE" shift="1" action="show_hide" params="encyclopedia"/>
-  <key name="KeyF" action="strafe_right"/>
+  <key name="KeyF" action="turn_right"/>
   <key name="KeyG" action="show_hide" params="guild"/>
   <key name="KeyG" shift="1" action="show_hide" params="guild_forum"/>
   <key name="KeyG" ctrl="1" menu="1" action="toggle_freeze_graph"/>
@@ -120,8 +121,7 @@
   <key name="KeyR" ctrl="1" action="reply_teller"/>
   <key name="KeyR" menu="1" action="toggle_run_walk"/>
   <key name="KeyR" ctrl="1" menu="1" action="reload_landscape_ig"/>
-  <key name="KeyS" action="strafe_left"/>
-  <key name="KeyS" ctrl="1" action="phrase_cancel_cast"/>
+  <key name="KeyS" action="turn_left"/>
   <key name="KeyS" ctrl="1" menu="1" action="toggle_season"/>
   <key name="KeyT" ctrl="1" action="r2ed_teleport"/>
   <key name="KeyT" ctrl="1" menu="1" action="reel_weather"/>
