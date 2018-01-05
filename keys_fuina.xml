@@ -127,6 +127,7 @@
   <key name="KeyT" ctrl="1" menu="1" action="reel_weather"/>
   <key name="KeyU" action="show_hide" params="fame"/>
   <key name="KeyU" ctrl="1" menu="1" action="debug_clusters"/>
+  <key name="KeyV" action="macro_exec" params="3"/>
   <key name="KeyW" action="toggle_auto_walk"/>
   <key name="KeyW" shift="1" action="show_hide" params="webig"/>
   <key name="KeyW" shift="1" ctrl="1" action="debug_ui_next_element_under_mouse"/>
@@ -218,5 +219,11 @@
   </macro>
   <macro name="Kitin Patrol" id="2" back="0" icon="0" over="0" text="">
     <command name="talk" params="mode=0|text=/tar &quot;Great Kirosta&quot; &quot;Killer Kirosta&quot;"/>
+  </macro>
+  <macro name="HealMe" id="3" back="0" icon="0" over="0" text="">
+    <command name="target" params="entity=Amartii"/>
+    <command name="select_shortcut_bar" params="1"/>
+    <command name="run_shortcut" params="00"/>
+    <command name="run_shortcut" params="00"/>
   </macro>
 </interface_config>
