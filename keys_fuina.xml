@@ -215,6 +215,7 @@
     <command name="run_shortcut" params="03"/>
   </macro>
   <macro name="Follow" id="1" back="0" icon="0" over="0" text="">
+    <command name="target" params="entity=Amartii"/>
     <command name="talk" params="mode=0|text=/follow"/>
   </macro>
   <macro name="Kitin Patrol" id="2" back="0" icon="0" over="0" text="">
