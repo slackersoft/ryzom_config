@@ -1,2 +1,41 @@
 <?xml version="1.0"?>
-<item_groups/>
+<item_groups>
+  <group name="dig">
+    <item createTime="1516477990" serial="13155839" slot="Headdress"/>
+    <item createTime="1516478002" serial="13155997" slot="EarL"/>
+    <item createTime="1516478006" serial="13156076" slot="EarR"/>
+    <item createTime="1516478034" serial="13156876" slot="Neck"/>
+    <item createTime="1516477887" serial="13153522" slot="Body"/>
+    <item createTime="1516477823" serial="13149325" slot="Arms"/>
+    <item createTime="1516477981" serial="13155493" slot="WristL"/>
+    <item createTime="1516477974" serial="13155019" slot="WristR"/>
+    <item createTime="1516477785" serial="13148314" slot="Hands"/>
+    <item createTime="1514869243" serial="6116055" slot="HandR"/>
+    <item createTime="1516478020" serial="13156437" slot="FingerL"/>
+    <item createTime="1516478016" serial="13156231" slot="FingerR"/>
+    <item createTime="1516477810" serial="13149106" slot="Legs"/>
+    <item createTime="1516477949" serial="13154362" slot="AnkleL"/>
+    <item createTime="1516477955" serial="13154551" slot="AnkleR"/>
+    <item createTime="1516477773" serial="13147976" slot="Feet"/>
+    <remove slot="Head"/>
+  </group>
+  <group name="cast">
+    <item createTime="1515260231" serial="15980653" slot="Headdress"/>
+    <item createTime="1515260249" serial="15981916" slot="EarL"/>
+    <item createTime="1515260244" serial="15981326" slot="EarR"/>
+    <item createTime="1515260464" serial="15987386" slot="Neck"/>
+    <item createTime="1515377164" serial="947545" slot="Body"/>
+    <item createTime="1515377142" serial="947222" slot="Arms"/>
+    <item createTime="1515260200" serial="15979416" slot="WristL"/>
+    <item createTime="1515260178" serial="15976260" slot="WristR"/>
+    <item createTime="1515377116" serial="946832" slot="Hands"/>
+    <item createTime="1506744139" serial="118789" slot="HandR"/>
+    <item createTime="1515260530" serial="15990938" slot="FingerL"/>
+    <item createTime="1515260580" serial="15993572" slot="FingerR"/>
+    <item createTime="1515377129" serial="947127" slot="Legs"/>
+    <item createTime="1515260117" serial="15974184" slot="AnkleL"/>
+    <item createTime="1515260091" serial="15973448" slot="AnkleR"/>
+    <item createTime="1515377103" serial="946709" slot="Feet"/>
+    <remove slot="Head"/>
+  </group>
+</item_groups>

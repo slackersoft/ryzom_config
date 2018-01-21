@@ -1,43 +1,5 @@
 <?xml version="1.0"?>
 <item_groups>
-  <group name="tank">
-    <item createTime="1506903823" serial="4010843" slot="Headdress"/>
-    <item createTime="1507181694" serial="10026693" slot="Head"/>
-    <item createTime="1505080569" serial="4909125" slot="EarL"/>
-    <item createTime="1507421193" serial="15224597" slot="EarR"/>
-    <item createTime="1507421193" serial="15224624" slot="Neck"/>
-    <item createTime="1507429375" serial="15392122" slot="Body"/>
-    <item createTime="1507401065" serial="14583631" slot="Arms"/>
-    <item createTime="1505080421" serial="4903618" slot="WristL"/>
-    <item createTime="1507396931" serial="14428629" slot="WristR"/>
-    <item createTime="1507401065" serial="14583658" slot="Hands"/>
-    <item createTime="1506743198" serial="111021" slot="HandR"/>
-    <item createTime="1505080503" serial="4907197" slot="FingerL"/>
-    <item createTime="1506903823" serial="4010816" slot="FingerR"/>
-    <item createTime="1506997615" serial="6066759" slot="Legs"/>
-    <item createTime="1505080394" serial="4903337" slot="AnkleL"/>
-    <item createTime="1506737476" serial="20348" slot="AnkleR"/>
-    <item createTime="1507181694" serial="10026720" slot="Feet"/>
-  </group>
-  <group name="cast">
-    <item createTime="1506903823" serial="4010843" slot="Headdress"/>
-    <item createTime="1507421193" serial="15224597" slot="EarL"/>
-    <item createTime="1505080569" serial="4909125" slot="EarR"/>
-    <item createTime="1507421193" serial="15224624" slot="Neck"/>
-    <item createTime="1461437251" serial="8798683" slot="Body"/>
-    <item createTime="1461438105" serial="8840158" slot="Arms"/>
-    <item createTime="1505080421" serial="4903618" slot="WristL"/>
-    <item createTime="1507396931" serial="14428629" slot="WristR"/>
-    <item createTime="1461438957" serial="8883980" slot="Hands"/>
-    <item createTime="1506814512" serial="1836656" slot="HandR"/>
-    <item createTime="1505080503" serial="4907197" slot="FingerL"/>
-    <item createTime="1506903823" serial="4010816" slot="FingerR"/>
-    <item createTime="1497841832" serial="10600829" slot="Legs"/>
-    <item createTime="1505080394" serial="4903337" slot="AnkleL"/>
-    <item createTime="1506737476" serial="20348" slot="AnkleR"/>
-    <item createTime="1461981461" serial="4934681" slot="Feet"/>
-    <remove slot="Head"/>
-  </group>
   <group name="dig">
     <item createTime="1463181953" serial="15279042" slot="Headdress"/>
     <item createTime="1463181229" serial="15231678" slot="EarL"/>
@@ -56,5 +18,45 @@
     <item createTime="1463181705" serial="15263266" slot="AnkleR"/>
     <item createTime="1462033716" serial="6083961" slot="Feet"/>
     <remove slot="Head"/>
+  </group>
+  <group name="cast">
+    <item createTime="1512233756" serial="4375942" slot="Headdress"/>
+    <item createTime="1512233684" serial="4373609" slot="EarL"/>
+    <item createTime="1512234139" serial="4390524" slot="EarR"/>
+    <item createTime="1512234193" serial="4392590" slot="Neck"/>
+    <item createTime="1515469433" serial="2886876" slot="Body"/>
+    <item createTime="1461438402" serial="8857521" slot="Arms"/>
+    <item createTime="1512233310" serial="4357926" slot="WristL"/>
+    <item createTime="1512234085" serial="4389103" slot="WristR"/>
+    <item createTime="1515469568" serial="2889287" slot="Hands"/>
+    <item createTime="1504458148" serial="1204023" slot="HandR"/>
+    <item createTime="1512233522" serial="4365949" slot="FingerL"/>
+    <item createTime="1512233526" serial="4366055" slot="FingerR"/>
+    <item createTime="1497841686" serial="10598470" slot="Legs"/>
+    <item createTime="1512233249" serial="4355324" slot="AnkleL"/>
+    <item createTime="1512233266" serial="4356632" slot="AnkleR"/>
+    <item createTime="1461439579" serial="8908466" slot="Feet"/>
+    <remove slot="Head"/>
+    <remove slot="HandL"/>
+  </group>
+  <group name="tank">
+    <item createTime="1512233756" serial="4375942" slot="Headdress"/>
+    <item createTime="1507181694" serial="10026693" slot="Head"/>
+    <item createTime="1512234139" serial="4390524" slot="EarL"/>
+    <item createTime="1512233684" serial="4373609" slot="EarR"/>
+    <item createTime="1512234193" serial="4392590" slot="Neck"/>
+    <item createTime="1507429375" serial="15392122" slot="Body"/>
+    <item createTime="1507401065" serial="14583631" slot="Arms"/>
+    <item createTime="1512233310" serial="4357926" slot="WristL"/>
+    <item createTime="1512234085" serial="4389103" slot="WristR"/>
+    <item createTime="1507401065" serial="14583658" slot="Hands"/>
+    <item createTime="1506743198" serial="111021" slot="HandR"/>
+    <item createTime="1512233522" serial="4365949" slot="FingerL"/>
+    <item createTime="1512233526" serial="4366055" slot="FingerR"/>
+    <item createTime="1506997615" serial="6066759" slot="Legs"/>
+    <item createTime="1512233249" serial="4355324" slot="AnkleL"/>
+    <item createTime="1512233266" serial="4356632" slot="AnkleR"/>
+    <item createTime="1507181694" serial="10026720" slot="Feet"/>
+    <remove slot="HandL"/>
   </group>
 </item_groups>
