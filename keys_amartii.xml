@@ -99,8 +99,10 @@
   <key name="KeyE" shift="1" action="show_hide" params="encyclopedia"/>
   <key name="KeyF" action="turn_right"/>
   <key name="KeyG" action="show_hide" params="guild"/>
+  <key name="KeyG" ctrl="1" action="mount_unmount"/>
   <key name="KeyG" shift="1" action="show_hide" params="guild_forum"/>
   <key name="KeyG" ctrl="1" menu="1" action="toggle_freeze_graph"/>
+  <key name="KeyH" action="inv_temp_all"/>
   <key name="KeyJ" action="show_hide" params="info_player_journal"/>
   <key name="KeyJ" ctrl="1" menu="1" action="inc_display_factor"/>
   <key name="KeyK" action="show_hide" params="phrase_book"/>

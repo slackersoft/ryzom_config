@@ -101,6 +101,7 @@
   <key name="KeyG" action="show_hide" params="guild"/>
   <key name="KeyG" shift="1" action="show_hide" params="guild_forum"/>
   <key name="KeyG" ctrl="1" menu="1" action="toggle_freeze_graph"/>
+  <key name="KeyH" action="inv_temp_all"/>
   <key name="KeyJ" action="show_hide" params="info_player_journal"/>
   <key name="KeyJ" ctrl="1" menu="1" action="inc_display_factor"/>
   <key name="KeyK" action="show_hide" params="phrase_book"/>
@@ -213,7 +214,7 @@
   <key name="KeyV" ctrl="1" action="edit_paste" context="edit"/>
   <key name="KeyX" ctrl="1" action="edit_cut" context="edit"/>
   <macro name="CP" id="0" back="0" icon="0" over="0" text="">
-    <command name="target_teammate_shortcut" params="indexInTeam=1"/>
+    <command name="target" params="entity=Amartii"/>
     <command name="assist_target" params=""/>
     <command name="run_shortcut" params="03"/>
   </macro>
@@ -228,16 +229,16 @@
     <command name="target" params="entity=Amartii"/>
     <command name="select_shortcut_bar" params="1"/>
     <command name="run_shortcut" params="00"/>
-    <command name="run_shortcut" params="00"/>
+    <command name="run_shortcut" params="01"/>
   </macro>
   <macro name="Heal Tank" id="4" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Jorgensen"/>
-    <command name="run_shortcut" params="06"/>
-    <command name="run_shortcut" params="01"/>
+    <command name="target" params="entity=Naema"/>
+    <command name="run_shortcut" params="00"/>
+    <command name="run_shortcut" params="00"/>
   </macro>
   <macro name="Extra" id="5" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Sbeck"/>
-    <command name="run_shortcut" params="00"/>
+    <command name="target" params="entity=Saady"/>
     <command name="run_shortcut" params="01"/>
+    <command name="run_shortcut" params="06"/>
   </macro>
 </interface_config>
