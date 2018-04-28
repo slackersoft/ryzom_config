@@ -232,13 +232,13 @@
     <command name="run_shortcut" params="01"/>
   </macro>
   <macro name="Heal Tank" id="4" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Naema"/>
+    <command name="target" params="entity=Fyrosfreddy"/>
     <command name="run_shortcut" params="00"/>
-    <command name="run_shortcut" params="00"/>
+    <command name="run_shortcut" params="01"/>
   </macro>
   <macro name="Extra" id="5" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Saady"/>
-    <command name="run_shortcut" params="01"/>
-    <command name="run_shortcut" params="06"/>
+    <command name="target" params="entity=Amartii"/>
+    <command name="run_shortcut" params="03"/>
+    <command name="run_shortcut" params="04"/>
   </macro>
 </interface_config>
