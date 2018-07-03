@@ -227,6 +227,6 @@
   <macro name="Fill Her Up" id="3" back="0" icon="0" over="0" text="">
     <command name="target" params="entity=Fuina"/>
     <command name="run_shortcut" params="19"/>
-    <command name="run_shortcut" params="16"/>
+    <command name="run_shortcut" params="15"/>
   </macro>
 </interface_config>
