@@ -57,4 +57,17 @@
     <item createTime="1529278361" serial="9642797" slot="AnkleR"/>
     <item createTime="1465164964" serial="13180971" slot="Feet"/>
   </group>
+  <group name="lixie">
+    <item createTime="1524937813" serial="14126028" slot="Headdress"/>
+    <item createTime="1524937823" serial="14126307" slot="EarL"/>
+    <item createTime="1524937827" serial="14126783" slot="EarR"/>
+    <item createTime="1524937837" serial="14127526" slot="Neck"/>
+    <item createTime="1524937800" serial="14125473" slot="WristL"/>
+    <item createTime="1524937803" serial="14125733" slot="WristR"/>
+    <item createTime="1504458148" serial="1204023" slot="HandR"/>
+    <item createTime="1524937851" serial="14128022" slot="FingerL"/>
+    <item createTime="1524937855" serial="14128336" slot="FingerR"/>
+    <item createTime="1524937784" serial="14125008" slot="AnkleL"/>
+    <item createTime="1524937788" serial="14125096" slot="AnkleR"/>
+  </group>
 </item_groups>

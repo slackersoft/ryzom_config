@@ -99,6 +99,7 @@
   <key name="KeyE" shift="1" action="show_hide" params="encyclopedia"/>
   <key name="KeyF" action="turn_right"/>
   <key name="KeyG" action="show_hide" params="guild"/>
+  <key name="KeyG" ctrl="1" action="mount_unmount"/>
   <key name="KeyG" shift="1" action="show_hide" params="guild_forum"/>
   <key name="KeyG" ctrl="1" menu="1" action="toggle_freeze_graph"/>
   <key name="KeyH" action="inv_temp_all"/>
@@ -111,7 +112,6 @@
   <key name="KeyM" action="show_hide" params="map"/>
   <key name="KeyM" shift="1" action="show_hide" params="mailbox"/>
   <key name="KeyM" ctrl="1" menu="1" action="weather_stats"/>
-  <key name="KeyN" action="macro_exec" params="4"/>
   <key name="KeyN" shift="1" action="show_hide" params="connection"/>
   <key name="KeyO" ctrl="1" menu="1" action="pacs_borders"/>
   <key name="KeyP" shift="1" action="show_hide" params="animal_global"/>
@@ -134,7 +134,7 @@
   <key name="KeyW" shift="1" action="show_hide" params="webig"/>
   <key name="KeyW" shift="1" ctrl="1" action="debug_ui_next_element_under_mouse"/>
   <key name="KeyW" ctrl="1" menu="1" action="reload_season"/>
-  <key name="KeyX" action="macro_exec" params="5"/>
+  <key name="KeyX" action="show_hide" params="main_chat"/>
   <key name="KeyZ" action="toggle_sit_stand"/>
   <key name="KeyZ" menu="1" action="toggle_chat"/>
   <key name="KeyZ" ctrl="1" menu="1" action="show_timed_fx"/>
@@ -214,31 +214,19 @@
   <key name="KeyV" ctrl="1" action="edit_paste" context="edit"/>
   <key name="KeyX" ctrl="1" action="edit_cut" context="edit"/>
   <macro name="CP" id="0" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Amartii"/>
+    <command name="target_teammate_shortcut" params="indexInTeam=1"/>
     <command name="assist_target" params=""/>
     <command name="run_shortcut" params="03"/>
   </macro>
   <macro name="Follow" id="1" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Amartii"/>
     <command name="talk" params="mode=0|text=/follow"/>
   </macro>
   <macro name="Kitin Patrol" id="2" back="0" icon="0" over="0" text="">
     <command name="talk" params="mode=0|text=/tar &quot;Great Kirosta&quot; &quot;Killer Kirosta&quot;"/>
   </macro>
-  <macro name="HealMe" id="3" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Amartii"/>
-    <command name="select_shortcut_bar" params="1"/>
-    <command name="run_shortcut" params="00"/>
-    <command name="run_shortcut" params="01"/>
-  </macro>
-  <macro name="Heal Tank" id="4" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Fyrosfreddy"/>
-    <command name="run_shortcut" params="00"/>
-    <command name="run_shortcut" params="01"/>
-  </macro>
-  <macro name="Extra" id="5" back="0" icon="0" over="0" text="">
-    <command name="target" params="entity=Amartii"/>
-    <command name="run_shortcut" params="03"/>
-    <command name="run_shortcut" params="04"/>
+  <macro name="Fill Her Up" id="3" back="0" icon="0" over="0" text="">
+    <command name="target" params="entity=Fuina"/>
+    <command name="run_shortcut" params="19"/>
+    <command name="run_shortcut" params="15"/>
   </macro>
 </interface_config>
