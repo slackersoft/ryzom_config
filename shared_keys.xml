@@ -112,6 +112,7 @@
   <key name="KeyM" action="show_hide" params="map"/>
   <key name="KeyM" shift="1" action="show_hide" params="mailbox"/>
   <key name="KeyM" ctrl="1" menu="1" action="weather_stats"/>
+  <key name="KeyN" action="macro_exec" params="4"/>
   <key name="KeyN" shift="1" action="show_hide" params="connection"/>
   <key name="KeyO" ctrl="1" menu="1" action="pacs_borders"/>
   <key name="KeyP" shift="1" action="show_hide" params="animal_global"/>
@@ -134,7 +135,7 @@
   <key name="KeyW" shift="1" action="show_hide" params="webig"/>
   <key name="KeyW" shift="1" ctrl="1" action="debug_ui_next_element_under_mouse"/>
   <key name="KeyW" ctrl="1" menu="1" action="reload_season"/>
-  <key name="KeyX" action="show_hide" params="main_chat"/>
+  <key name="KeyX" action="macro_exec" params="5"/>
   <key name="KeyZ" action="toggle_sit_stand"/>
   <key name="KeyZ" menu="1" action="toggle_chat"/>
   <key name="KeyZ" ctrl="1" menu="1" action="show_timed_fx"/>
@@ -213,18 +214,18 @@
   <key name="KeyC" ctrl="1" action="edit_copy" context="edit"/>
   <key name="KeyV" ctrl="1" action="edit_paste" context="edit"/>
   <key name="KeyX" ctrl="1" action="edit_cut" context="edit"/>
-  <macro name="CP" id="0" back="0" icon="0" over="0" text="">
+  <macro name="CP" id="0" back="1" icon="1" over="1" text="cp">
     <command name="target_teammate_shortcut" params="indexInTeam=1"/>
     <command name="assist_target" params=""/>
     <command name="run_shortcut" params="03"/>
   </macro>
-  <macro name="Follow" id="1" back="0" icon="0" over="0" text="">
+  <macro name="Follow" id="1" back="4" icon="0" over="3" text="flw">
     <command name="talk" params="mode=0|text=/follow"/>
   </macro>
-  <macro name="Kitin Patrol" id="2" back="0" icon="0" over="0" text="">
+  <macro name="Kitin Patrol" id="2" back="0" icon="0" over="4" text="kitin">
     <command name="talk" params="mode=0|text=/tar &quot;Great Kirosta&quot; &quot;Killer Kirosta&quot;"/>
   </macro>
-  <macro name="Fill Her Up" id="3" back="0" icon="0" over="0" text="">
+  <macro name="Fill Her Up" id="3" back="5" icon="6" over="0" text="fill">
     <command name="target" params="entity=Fuina"/>
     <command name="run_shortcut" params="19"/>
     <command name="run_shortcut" params="15"/>

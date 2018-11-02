@@ -99,6 +99,7 @@
   <key name="KeyE" shift="1" action="show_hide" params="encyclopedia"/>
   <key name="KeyF" action="turn_right"/>
   <key name="KeyG" action="show_hide" params="guild"/>
+  <key name="KeyG" ctrl="1" action="mount_unmount"/>
   <key name="KeyG" shift="1" action="show_hide" params="guild_forum"/>
   <key name="KeyG" ctrl="1" menu="1" action="toggle_freeze_graph"/>
   <key name="KeyH" action="inv_temp_all"/>
@@ -213,30 +214,30 @@
   <key name="KeyC" ctrl="1" action="edit_copy" context="edit"/>
   <key name="KeyV" ctrl="1" action="edit_paste" context="edit"/>
   <key name="KeyX" ctrl="1" action="edit_cut" context="edit"/>
-  <macro name="CP" id="0" back="0" icon="0" over="0" text="">
+  <macro name="CP" id="0" back="1" icon="1" over="1" text="cp">
     <command name="target" params="entity=Amartii"/>
     <command name="assist_target" params=""/>
     <command name="run_shortcut" params="03"/>
   </macro>
-  <macro name="Follow" id="1" back="0" icon="0" over="0" text="">
+  <macro name="Follow" id="1" back="4" icon="0" over="3" text="flw">
     <command name="target" params="entity=Amartii"/>
     <command name="talk" params="mode=0|text=/follow"/>
   </macro>
-  <macro name="Kitin Patrol" id="2" back="0" icon="0" over="0" text="">
+  <macro name="Kitin Patrol" id="2" back="0" icon="0" over="4" text="kitin">
     <command name="talk" params="mode=0|text=/tar &quot;Great Kirosta&quot; &quot;Killer Kirosta&quot;"/>
   </macro>
-  <macro name="HealMe" id="3" back="0" icon="0" over="0" text="">
+  <macro name="HealMe" id="3" back="5" icon="6" over="0" text="heal">
     <command name="target" params="entity=Amartii"/>
     <command name="select_shortcut_bar" params="1"/>
     <command name="run_shortcut" params="00"/>
     <command name="run_shortcut" params="06"/>
   </macro>
-  <macro name="Heal Tank" id="4" back="0" icon="0" over="0" text="">
+  <macro name="Heal Tank" id="4" back="0" icon="0" over="0" text="tank">
     <command name="target" params="entity=Fyrosfreddy"/>
     <command name="run_shortcut" params="00"/>
     <command name="run_shortcut" params="06"/>
   </macro>
-  <macro name="Extra" id="5" back="0" icon="0" over="0" text="">
+  <macro name="Extra" id="5" back="0" icon="0" over="0" text="extra">
     <command name="target" params="entity=Ryzho"/>
     <command name="run_shortcut" params="03"/>
     <command name="run_shortcut" params="04"/>
